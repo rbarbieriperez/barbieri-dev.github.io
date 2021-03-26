@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rodrigo Barbieri</title>
+    <script src="/Bootstrap/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<!-- Navbar -->
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <!-- Brand -->
+    <a class="navbar-brand" id="nav-title" href="#">Rodrigo Barbieri</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <img src="/Images/menu-4-xxl.png" alt="menu">
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav col-lg-auto ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="a-about-me" href="#container-about-me">Sobre Mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="a-projects" href="#my-projects">Mis Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="a-contact" href="#container-form">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+</header>
+<body>
+  <div class="container-fluid d-flex justify-content-center" id="container-about-me">
+    <div class="row">
+      <div class="col-12 col-lg-12">
+        <h1 id="about-me">Sobre Mí</h1>
+      </div>
+      <!--My Picture-->
+      <div class="col-12 col-lg-12 d-flex justify-content-center">
+        <img id="foto-camisa" src="/Images/foto-camisa.jpg" alt="Foto camisa">
+      </div>
+      <!--Under Photo Text-->
+      <div class="col-12 col-lg-12 d-flex justify-content-center">
+        <p id = "text-under-photo">Rodrigo Barbieri</p> 
+      </div> 
+      <div class="col-12 col-lg-12 d-flex justify-content-center">
+        <p id="text-under-photo-2">Developer</p>
+      </div>
+      <!--Information about me-->
+      <div class="col-12 col-lg-12">
+        <p id="p-about-me">¡Hola! Bienvenido a mi página web<br>
+        Mi nombre es Rodrigo y al día de hoy tengo x años <br>
+        Me encanta la programación, soy autodidacta y proactivo <br>
+        Siempre estoy buscando cosas nuevas que aprender.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--My projects-->
+  <div class="container-fluid d-flex justify-content-around" id="my-projects">
+    <div class="row">
+      <!--Images of Projects-->
+      <div class="col-12 col-lg-4">
+        <img src="/Images/logoLolo.png" alt="logo-conting" id="logo-conting">
+      </div>
+    </div>
+  </div>
+
+  <!--Main Div ConTinG-->
+  <div class="container-fluid" id="main-div-conting">
+    <div class="row ">
+      <div class="col-12 col-lg-12">
+        <p id="description-projects-p"></p>
+      </div>
+      <div class="col-12 col-lg-12">
+        <p id="caracteristicas"></p>
+      </div>
+    </div>
+    <div class="row col-lg-12" id="container-images-row1">
+      
+    </div>
+  </div>
+  <!--Contact-->
+  <div class="container-fluid d-flex justify-content-center" id="container-form">
+    <div class="row">
+      <form onsubmit="return false">
+        <div class="col-8 col-lg-8">
+          <div class="form-group">
+            <label for="nombre-completo">Nombre completo</label>
+            <input type="text" class="form-control" id="nombre-completo" placeholder="Juan Pérez">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo</label>
+            <input type="email" class="form-control" id="correo" placeholder="example@example.com">
+          </div>
+        </div>
+
+        <div class="col-4 col-lg-4">
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea type="text" class="form-control rounded-0" id="mensaje" placeholder="Inserta tu mensaje" maxlength="500" rows="5" ></textarea>
+          </div>
+        </div>
+        <div class="col-12 col-lg-12">
+          <button type="submit" class="btn btn-primary" id="btn-enviar">Enviar Mensaje</button>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+  <!--Dev Information-->
+  <div class="container-fluid" id="dev-container">
+    <div class="row">
+      <div class="col-12">
+        <p>Desarrollado por Rodrigo Barbieri</p><br>
+        <p>Todos los derechos reservados</p>
+        <p>2021</p>
+        <p>rbarbieriperez@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

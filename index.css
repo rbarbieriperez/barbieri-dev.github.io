@@ -1,0 +1,208 @@
+
+/* Declaraciones globales */
+a{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  background-color: #1B1B1B;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+a:hover{
+  color:white;
+}
+body, header{
+  background-color: #1B1B1B;
+}
+nav{
+  height: 70px;
+  transition: 0.5s;
+}
+p{
+  font-family: 'Teko', sans-serif;
+  color: white;
+}
+/*Navbar*/
+.nav-link, #nav-title{
+  -webkit-text-stroke: .3px black; 
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+
+/*About Me*/
+#about-me{
+  position: relative;
+  top:60px;
+  text-align: center;
+  color:white;
+}
+
+#container-about-me{
+  position: relative;
+  width:auto;
+  height:700px;
+  box-shadow: top 2px;
+  top: 130px;
+  
+}
+
+#p-about-me{
+  position: relative;
+  top: 90px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  margin-bottom: 500px;
+}
+
+#foto-camisa{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 3px gray;
+  position: relative;
+  top: 80px;
+}
+
+#text-under-photo{
+  position: relative;
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+  top:85px;
+}
+
+#text-under-photo-2{
+  position: relative;
+  font-family:'Alegreya Sans', sans-serif;;
+  font-size: 20px;
+  top:85px;
+}
+
+/*Conting Band*/
+
+#my-projects{
+  position: relative;
+  background-color: #264E77;
+  top:  150px;
+  padding: 20px;
+  -webkit-box-shadow: 0 8px 6px -6px black; 
+  
+}
+
+#logo-conting{
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+
+}
+
+#my-projects:hover {
+  border: solid 1px white ;
+  cursor: pointer;
+}
+
+/*Description of Projects*/
+
+#main-div-conting p:not(#caracteristicas){
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+#main-div-conting{
+  position: relative;
+  top: 180px;
+  background-color: transparent;
+  text-align: center;
+}
+
+#caracteristicas{
+  font-size: 50px;
+}
+
+/*Images of characteristics*/
+#container-images{
+  position: relative;
+  top:300px;
+}
+
+/*Image of characteristics ConTinG*/
+#logo-csharp, #logo-mysql, #logo-raspy,#logo-arduino, #logo-python, #logo-server{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+/*Contact form*/
+
+#container-form{
+  position: relative;
+  top: 300px;
+  display: flex;
+}
+
+#nombre-completo{
+  width: 400px;
+}
+#correo{
+  width: 400px;
+}
+
+#mensaje{
+  width: 400px;
+  resize: none;
+}
+
+#nombre-completo, #correo, #mensaje{
+  background-color: transparent;
+  color: white;
+  border:none;
+  border-bottom: solid 1px white;
+  border-radius: 0px;
+
+  
+} 
+
+
+
+label{
+  color:white;
+}
+
+#btn-enviar{
+  width: 400px;
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+/*Dev Information*/
+
+#dev-container{
+  position: relative;
+  background-color: #111111;
+  width: auto;
+  height: 200px;
+  top: 400px;
+  text-align: center;
+  padding-top: 50px;
+  box-shadow :  -10px 0px  10px  0px  #111 ; 
+}
+
+#dev-container p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 10px; 
+}
