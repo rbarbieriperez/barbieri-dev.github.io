@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+@media screen and (min-width: 1600px){
+    
+    
+    
+    
+    #contact-container {
+        background-image: url("./Images/worldwide-1080p.jpg");
+        width: 101.4%;
+        margin-left: -1%;
+        padding-top:1%;
+        padding-bottom: 10%;
+    }
+
+    
+    #contact-container h3{
+        font-size: 48px;
+        text-align: center;
+    }
+
+
+    /*FORM RELATED*/
+    textarea {
+        resize: none;
+    }
+
+
+    #contact-container #div-form {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color:white;
+    }
+
+   /*EACH INPUT CONTAINERS*/
+
+    label {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    input {
+        height: 35px;
+        margin-left: 1%;
+        font-size: 18px;
+        width: 300px;
+        border: solid 1px black;    
+        border-radius: 25px;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+    textarea{
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 25px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    input:hover, textarea:hover{
+        border: solid 2px lightblue;
+        border-radius: 25px;
+    }
+    input:focus{
+        border-radius: 25px;
+        outline: none;
+    }
+    textarea:focus {
+        outline: none;
+        border-radius: 25px;
+    }
+
+
+
+    #div-nombre{
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+
+    #div-nombre input {
+        margin-right: -1.1%;
+    }
+
+    #div-apellido {
+        margin-top: 2%;
+    }
+
+    #div-correo {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #div-correo input {
+        margin-right:-2.5%;
+    }
+
+    #div-mensaje {
+        margin-top: 2%;
+    }
+    #lbl_mensaje{
+        float:left;
+        margin-left: 27%;
+        
+    }
+    #mensaje{
+        margin-left:-8%;
+    }
+    
+    #submit {
+        margin-top: 3%;
+        margin-bottom: 5%;  
+        border-radius: 25px;
+        width: 450px;
+        height: 50px;
+        outline: none;
+        border: solid 1px white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: transparent;
+        color: white;
+    }
+
+    #submit:hover {
+        border: solid 1px lightblue;
+        color:lightblue;
+        width: 452px;
+        height: 52px;
+        cursor: pointer;
+        
+    }
+
+    textarea {
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+
+   
+    form {
+        margin-top: 5%;
+        margin-bottom:5%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5%;
+        border: solid 2px white;
+    }
+
+
+}
