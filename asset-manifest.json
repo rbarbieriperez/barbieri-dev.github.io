@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/barbieri-dev.github.io/static/css/main.e198d938.chunk.css",
+    "main.js": "/barbieri-dev.github.io/static/js/main.7e612639.chunk.js",
+    "main.js.map": "/barbieri-dev.github.io/static/js/main.7e612639.chunk.js.map",
+    "runtime-main.js": "/barbieri-dev.github.io/static/js/runtime-main.39fea884.js",
+    "runtime-main.js.map": "/barbieri-dev.github.io/static/js/runtime-main.39fea884.js.map",
+    "static/js/2.5709bd2a.chunk.js": "/barbieri-dev.github.io/static/js/2.5709bd2a.chunk.js",
+    "static/js/2.5709bd2a.chunk.js.map": "/barbieri-dev.github.io/static/js/2.5709bd2a.chunk.js.map",
+    "index.html": "/barbieri-dev.github.io/index.html",
+    "static/css/main.e198d938.chunk.css.map": "/barbieri-dev.github.io/static/css/main.e198d938.chunk.css.map",
+    "static/js/2.5709bd2a.chunk.js.LICENSE.txt": "/barbieri-dev.github.io/static/js/2.5709bd2a.chunk.js.LICENSE.txt",
+    "static/media/aboutMe.css": "/barbieri-dev.github.io/static/media/blue-solid-background-1080p.d8feb077.jpg",
+    "static/media/title.css": "/barbieri-dev.github.io/static/media/computer-high-resolution.fbe41b05.jpg",
+    "static/media/contactForm.css": "/barbieri-dev.github.io/static/media/worldwide-1080p.19acb76a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39fea884.js",
+    "static/js/2.5709bd2a.chunk.js",
+    "static/css/main.e198d938.chunk.css",
+    "static/js/main.7e612639.chunk.js"
+  ]
+}
